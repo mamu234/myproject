@@ -15,17 +15,13 @@ body {
     margin-top: 25px;
     padding-top: 20px;
     }
-    .jumbotron{
-    background-color: aliceblue;
+    .container.jumbotron{
+     margin-right: 90px;
     }
- input[type=email] {
+ input[type=century] {
         width:  60%;
         padding: 12px 20px;
         margin: 8px 0;
         box-sizing: border-box;
       }
-      input[type=password] {
-        width:  60%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
+      
