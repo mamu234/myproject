@@ -42,4 +42,27 @@ body {
         margin: 8px 0;
         box-sizing: border-box;
       }
-      
+      input[type= year] {
+        width:  60%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+      input[type=month] {
+        width:  60%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+      input[type=date] {
+        width:  60%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+      input[type=century] {
+        width:  60%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
