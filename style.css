@@ -1,0 +1,20 @@
+body {
+    background-image: url("img/sea.jpg");
+    background-size: contain;
+    }
+    .header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 20px;
+    }
+    .container h2{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 25px;
+    padding-top: 20px;
+    }
+    .jumbotron{
+    background-color: aliceblue;
+    }
+    
