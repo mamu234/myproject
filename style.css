@@ -34,14 +34,19 @@ body {
     margin-top: 25px;
     padding-top: 20px;
     }
-     
+  
+    label { 
+      position: absolute; 
+      text-align:right; 
+      width:130px; }
   
  input[type=century] {
         width:  60%;
         padding: 12px 20px;
         margin: 8px 0;
         box-sizing: border-box;
-      }
+        position: relative; left: 18%; margin-left: -15px};
+      
       input[type= year] {
         width:  60%;
         padding: 12px 20px;
@@ -66,3 +71,5 @@ body {
         margin: 8px 0;
         box-sizing: border-box;
       }
+
+     
