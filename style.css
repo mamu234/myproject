@@ -34,42 +34,31 @@ body {
     margin-top: 25px;
     padding-top: 20px;
     }
-  
-    label { 
-      position: absolute; 
-      text-align:right; 
-      width:130px; }
-  
- input[type=century] {
-        width:  60%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        position: relative; left: 18%; margin-left: -15px};
-      
-      input[type= year] {
-        width:  60%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-      }
-      input[type=month] {
-        width:  60%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-      }
-      input[type=date] {
-        width:  60%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-      }
-      input[type=century] {
-        width:  60%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-      }
 
-     
+    .form-group{
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+      font-size: 18px;
+      font-family: 'Quattrocento', serif;
+    }
+    .form-check-label{
+      color: rgb(255, 255, 255);
+    }
+    input[type="radio"] {
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+    }
+    .footer-copyright a{
+      color: rgb(255, 255, 255);;
+      font-weight: 600;
+      }
+      .footer-copyright a:hover{
+        color: rgb(254, 254, 254);
+        font-weight: 700;
+        text-decoration: none;
+      }
+      .card-text a:hover{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+      }
+      
