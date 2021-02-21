@@ -1,1 +1,3 @@
-# project2
+Author: Caroline Maunda 
+
+Project Description 
