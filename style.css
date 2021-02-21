@@ -23,7 +23,7 @@ body {
 }
 
     .header{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: volkhov;
     text-align: center;
     margin-top: 25px;
     padding-top: 20px;
@@ -33,16 +33,22 @@ body {
     font-family: 'Times New Roman', Times, serif;
     margin-top: 25px;
     padding-top: 20px;
+    
     }
 
     .form-group{
-      color: rgb(255, 255, 255);
+      color: rgb(7, 1, 1);
       font-weight: 600;
+      padding-top: 30px;
       font-size: 18px;
       font-family: 'Quattrocento', serif;
+      width: 50%;
+      position: relative;
+      right: -30%;
+    
     }
     .form-check-label{
-      color: rgb(255, 255, 255);
+      color: rgb(26, 3, 128);
     }
     input[type="radio"] {
       -webkit-transform: scale(1.5);
@@ -53,12 +59,8 @@ body {
       font-weight: 600;
       }
       .footer-copyright a:hover{
-        color: rgb(254, 254, 254);
+        color: rgb(29, 8, 8);
         font-weight: 700;
         text-decoration: none;
       }
-      .card-text a:hover{
-        color: rgb(0, 0, 0);
-        text-decoration: none;
-      }
-      
+   
