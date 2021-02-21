@@ -55,12 +55,16 @@ body {
       transform: scale(1.5);
     }
     .footer-copyright a{
-      color: rgb(255, 255, 255);;
-      font-weight: 600;
+      color: rgb(252, 239, 239);;
+      font-weight: 900;
       }
       .footer-copyright a:hover{
         color: rgb(29, 8, 8);
         font-weight: 700;
         text-decoration: none;
       }
-   
+   .btn{
+   position: relative;
+   right: -30%;
+   margin-top: 30px;
+   }
