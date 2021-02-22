@@ -8,29 +8,72 @@ body {
  text-align: center;
  margin-top: 70px;
  font-family: Grenze;
- font-size: 45px;
+ font-size: 60px;
  font-weight: bold;
  letter-spacing:1px;
 }
+.head2 h2 {
+text-align: center;
+font-family: volkhov;
+padding-top: 30px;
+margin-left: 40px;
+margin-right: 40px;
+display: block;
+font-size: 20px;
+}
+
   .header{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: volkhov;
   text-align: center;
   margin-top: 25px;
   padding-top: 20px;
   }
   .container h2{
-  font-size: 25px;
+  font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
   margin-top: 25px;
   padding-top: 20px;
+  
   }
-  .container.jumbotron{
-   margin-right: 90px;
+
+  .form-group{
+    color: rgb(7, 1, 1);
+    font-weight: 600;
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: 'Quattrocento', serif;
+    width: 50%;
+    position: relative;
+    right: -30%;
+    text-align: center;
+  
   }
-input[type=century] {
-      width:  60%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      box-sizing: border-box;
+  .form-check-label{
+    color: rgb(26, 3, 128);
+  }
+  input[type="radio"] {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  .footer-copyright a{
+    color: rgb(252, 239, 239);;
+    font-weight: 900;
     }
+    .footer-copyright a:hover{
+      color: rgb(29, 8, 8);
+      font-weight: 700;
+      text-decoration: none;
+    }
+ .btn{
+ position: relative;
+ right: -30%;
+ margin-top: 30px;
+ background: rgb(145, 168, 192);
+ color:solid brown;
+ font-size: 25px;
+ font-family: volkhov;
+ }
+ .form-control{
+   text-align: center;
+ }
       
