@@ -73,3 +73,6 @@ body {
    font-size: 25px;
    font-family: volkhov;
    }
+   .form-control{
+     text-align: center;
+   }
