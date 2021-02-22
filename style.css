@@ -45,6 +45,7 @@ body {
       width: 50%;
       position: relative;
       right: -30%;
+      text-align: center;
     
     }
     .form-check-label{
@@ -68,5 +69,7 @@ body {
    right: -30%;
    margin-top: 30px;
    background: rgb(145, 168, 192);
-   color: brown;
+   color:solid brown;
+   font-size: 25px;
+   font-family: volkhov;
    }
