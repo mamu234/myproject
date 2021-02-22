@@ -12,10 +12,9 @@ Live Page
 
 
 Installation / Setup instruction
+GO to terminal  and cd into the project directory 
 
 
-
-cd Akan-Names
 
 
 Frameworks /langauge used
