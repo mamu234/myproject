@@ -31,7 +31,7 @@ The expected output is year if Birth for example 19 for 2019
 The expected output ofe month of birth  will be between january -December, 1 means January , 12 means December.
 
 The gender input  for this case will be male.
-THe code will compre  the inputs with specific condition  for instance if an input filed is empty ,the progrma will produce an alert  forthe user toenter valid inputs.
+THe code will compare  the inputs with specific condition  for instance if an input filed is empty ,the progrma will produce an alert  for the user to enter valid inputs.
 0 < Date >= 31.
 0 < Month >= 12
 Gender Male or Female.
