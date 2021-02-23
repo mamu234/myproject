@@ -28,7 +28,7 @@
     <form name="myForm" class="form" onsubmit="validate();">
       <div class="form-group">
         <label for="number">Year of Birth:</label>
-        <input type="number" class="form-control" id="year" placeholder="Year of Birth Eg: 2019 if born in 2019" name="year">
+        <input type="number" class="form-control" id="year" placeholder="2019 if you were  born in 2019" name="year">
       </div>
       <div class="form-group">
         <label for="month">Month of Birth:</label>
@@ -36,30 +36,31 @@
       </div>
       <div class="form-group">
         <label for="date">Date of Birth:</label>
-        <input type="number" class="form-control" id="date" placeholder="Date of Birth eg 05 for May" name="date">
+        <input type="number" class="form-control" id="date" placeholder=" 05 means May"  name="date">
       </div>
       <div class="form-group">
         <label for="month">Gender</label><br>
         <div class="form-check-inline">
           <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
+            <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male  
           </label>
         </div>
         <div class="form-check-inline">
           <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
+            <input type="radio" class="form-check-input" name="gender" id="female">&nbsp;Female 
+            
           </label>
         </div>
       </div>
-      <button type="submit" class="btn" onclick="findName();">Get Name</button>
-      <br>
+      <button type="submit" id="btn">Get Name</button>
+      
     </form>
     <p id="results"> </p>
   </div>
 </div>
 
 <footer class="page-footer ">
-  <div class="footer-copyright text-center py-3">Copyright © 2021:
+  <div class="footer">Copyright © 2021:
     <a href="http"> Caroline Maunda</a>
   </div>
 </footer>
