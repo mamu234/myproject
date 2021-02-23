@@ -8,8 +8,24 @@ e.preventDefault()
  let newResult = `${year},${month}, ${date}`;
 
  let d = new Date(newResult);
-console.log(d.getDay());
-})
+ console.log(d.getDay());
+
+ function getGender(){
+    var genders = document.getElementsByName("gender");
+    if(genders[0].checked == true){
+      var gender = "male";
+    }
+    else if(genders[1].checked == true){
+      var gender = "female";
+    }
+    else{
+      return false;
+    }
+    function findName(){
+        dayValue = calculateDayValue();
+        getGender();
+      }
+
 
 const malesNames = [
     "Sunday:Kwasi",
@@ -29,11 +45,6 @@ const femalesNames = [
 "Friday:Afua",
 "Saturday:Ama",
 ];
-
-
-
-
-
 
 
 
