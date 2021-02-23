@@ -9,7 +9,7 @@ The project describes a simple way of calculating your date of birth using the A
 
 
 Live Page
-github.com/mamu234/project2
+https://github.com/mamu234/myproject
 
 Installation / Setup instruction
 Go to terminal  and cd into the project directory 
