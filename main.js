@@ -40,7 +40,8 @@ const femalesNames = [
        alert('Your Akan name is' +""+ malesNames[day])
     }
     else if(genderFemale =="female") {
-      alert(femalesNames[day]) 
+    }
+      alert( 'Your Akan name is' +femalesNames[day]) 
     }
 
 })
