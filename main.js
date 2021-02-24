@@ -18,33 +18,50 @@ e.preventDefault()
   
 
     
-const malesNames = [
-    "Sunday:Kwasi",
-    "Monday: kwadwo",
-    "Tuesday:kwabena",
-    "Wednesday:kwaku",
-    "Thursday: yaw",
-    "Friday:Kofi",
-    "Saturday:Kwame",
-];
-const femalesNames = [
-"Sunday: Akosua",
-"Monday:Adwoa",
-"Tuesday:Abenaa",
-"Wednesday:AKua",
-"Thursday:Yaa",
-"Friday:Afua",
-"Saturday:Ama",
-];
+    const malesDays = [
+      "Sunday",
+      "Monday", 
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+  ];
+  
+  const malesNames =[
+  "Kwasi", 
+  "kwadwo",
+  "kwabena",
+  "kwaku",
+  "yaw",
+  "Kofi",
+  "Kwame"
+  ];
+  const femalesNames = [
+  "Sunday" ,
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  ];
+  
+  const femalesDays = [
+    "Akosua",
+    "Adwoa",
+    "Abenaa",
+    "AKua",
+    "Yaa",
+    "Afua",
+    "Ama"
+  ];
   if(genderMale == "male"){
-       alert('Your Akan name is' +""+ malesNames[day])
-    }
-    else if(genderFemale =="female") {
-    }
-      alert( 'Your Akan name is' +femalesNames[day]) 
-    
-
-})
-
-
+    alert('Your Akan name is' +" "+ malesNames[day] + "\ " + "You were born on" + " " + femalesDays[day])
+  }
+  else if(genderFemale =="female") {
+  }
+   alert('Your Akan name is' +" "+ femalesNames[day] + "\ " + "You were born on" + " " + malesDays[day])
+  })
+  
 
