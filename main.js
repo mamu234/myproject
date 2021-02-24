@@ -36,13 +36,12 @@ const femalesNames = [
 "Friday:Afua",
 "Saturday:Ama",
 ];
-  if(genderMale == "male"){
-       alert(malesNames[day])
-    }
-    else if(genderFemale =="female") {
-      alert(femalesNames[day]) 
-    }
-
+if(genderMale == "male"){
+  alert('Your Akan name is' +""+ malesNames[day])
+}
+else if(genderFemale =="female") {
+}
+ alert( 'Your Akan name is' +femalesNames[day]) 
 })
 
 
