@@ -37,7 +37,7 @@ const femalesNames = [
 "Saturday:Ama",
 ];
   if(genderMale == "male"){
-       alert(malesNames[day])
+       alert('Your Akan name is' +"" + malesNames[day])
     }
     else if(genderFemale =="female") {
       alert(femalesNames[day]) 
