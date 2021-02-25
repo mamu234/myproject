@@ -56,12 +56,13 @@ const femalesDays = [
   "Afua",
   "Ama"
 ];
-if(genderMale == "male"){
+if(genderMale == "male" || genderFemale =="female"){
   alert('Your Akan name is' +" "+ malesNames[day] + "\ " + "You were born on" + " " + malesDays[day])
 }
-else if(genderFemale =="female") {
+else  {
+
+ alert(femalesNames[day] + "\ " + "You were born on" + " " + femalesDays[day])
 }
- alert('Your Akan name is' +" "+ femalesNames[day] + "\ " + "You were born on" + " " + femalesDays[day])
 })
 
 
