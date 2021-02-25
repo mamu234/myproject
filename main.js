@@ -57,11 +57,11 @@ const femalesDays = [
   "Ama"
 ];
 if(genderMale == "male"){
-  alert('Your Akan name is' +" "+ malesNames[day] + "\ " + "You were born on" + " " + femalesDays[day])
+  alert('Your Akan name is' +" "+ malesNames[day] + "\ " + "You were born on" + " " + malesDays[day])
 }
 else if(genderFemale =="female") {
 }
- alert('Your Akan name is' +" "+ femalesNames[day] + "\ " + "You were born on" + " " + malesDays[day])
+ alert('Your Akan name is' +" "+ femalesNames[day] + "\ " + "You were born on" + " " + femalesDays[day])
 })
 
 
