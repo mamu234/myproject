@@ -1,3 +1,13 @@
+
+function validateForm() {
+  var form = document.forms["myForm"]["number"].value;
+  if (form == "") {
+    alert("type a number");
+    return false;
+  }
+}
+
+
 document.getElementById("btn").addEventListener("click",  function(e)
 
 {
