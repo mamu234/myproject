@@ -23,32 +23,29 @@
     <div class="jumbotron">
     <div class="container">
     <h2>Enter Your Details Here!</h2>
-
-
-      <form class="myform" >  
-        <label for="date">Date of Birth: </label>
-        <input type="date" class="form-control" id="date" placeholder=" 05 means May"  name="date" min="1930-01-01" max="2021-01-01">
-        <button onclick="myFunction()">Submit</button>
-      </div>
-
-      <div class="form-group">
-        <label for="month">Gender</label><br>
-        <div class="form-check-inline">
-          <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="gender" id="male" value="male">&nbsp; Male  
-          </label>
+    
+    <form class="myform" >  
+          <label for="date">Date of Birth: </label>
+          <input type="date" class="form-control" id="date" placeholder=" 05 means May"  name="date" min="1930-01-01" max="2021-01-01">
+          <button onclick="myFunction()">Submit</button>
         </div>
-        <div class="form-check-inline">
-          <label class="form-check-label">
-            <input type="radio" class="form-check-input" name="gender" id="female" value="female">&nbsp;Female 
-            
-          </label>
+
+        <div class="form-group">
+          <label for="month">Gender</label><br>
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="gender" id="male" value="male">&nbsp; Male  
+            </label>
+          </div>
+          <div class="form-check-inline">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input" name="gender" id="female" value="female">&nbsp;Female 
+              
+            </label>
+          </div>
         </div>
-      </div>
-      <button type="submit" id="btn">Get Name </button>
-      
+        <button type="submit" id="btn"> Get name </button>
     </form>
-    <p id="results"> </p>
   </div>
 </div>
 
