@@ -1,21 +1,13 @@
 
-function validateForm() {
-  var form = document.forms["myForm"]["number"].value;
-  if (form == "") {
-    alert("type a number");
-    return false;
-  }
-}
 
 
 document.getElementById("btn").addEventListener("click",  function(e)
 
 {
 e.preventDefault()
- let year = document.getElementById("year").value;
- let month = document.getElementById("month").value;
+ 
  let date = document.getElementById("date").value; 
- let newResult = `${year},${month}, ${date}`;
+ let newResult = date;
 
  let d = new Date(newResult);
  let day = d.getDay()
@@ -25,10 +17,18 @@ e.preventDefault()
     var genderMale = document.querySelector("#male").value;
     var genderFemale = document.querySelector("#female").value;
   
+  if(genderMale == "male" || genderFemale =="female"){
+    alert('Your Akan name is' +" "+ malesNames[day] + "\r\n" + "You were born on" + " " + malesDays[day])
+  }
+  else  {
+  
+   alert(femalesNames[day] + "\n " + "You were born on" + " " + femalesDays[day])
+  }
+  })
+
   
 
-    
-    const malesDays = [
+ const malesDays = [
       "Sunday",
       "Monday", 
       "Tuesday",
@@ -66,14 +66,10 @@ e.preventDefault()
     "Afua",
     "Ama"
   ];
-  if(genderMale == "male" || genderFemale =="female"){
-    alert('Your Akan name is' +" "+ malesNames[day] + "\ " + "You were born on" + " " + malesDays[day])
-  }
-  else  {
-  
-   alert(femalesNames[day] + "\ " + "You were born on" + " " + femalesDays[day])
-  }
-  })
-  
-  
 
+
+  
+  function myFunction() {
+    var x = document.getElementById("myform").min;
+    document.getElementById("date").innerHTML = x;
+  }
