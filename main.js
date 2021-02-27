@@ -66,3 +66,7 @@ else  {
 })
 
 
+function myFunction() {
+  var x = document.getElementById("myform").min;
+  document.getElementById("date").innerHTML = x;
+}
