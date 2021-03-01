@@ -69,7 +69,12 @@ e.preventDefault()
 
 
   
-  function myFunction() {
-    var x = document.getElementById("myform").min;
-    document.getElementById("date").innerHTML = x;
+ 
+
+  function validateForm() {
+    var x = document.forms["myForm"]["date"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+    }
   }
